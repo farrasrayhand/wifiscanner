@@ -62,7 +62,7 @@ if [[ $prompt == "y" || $prompt == "Y" || $prompt == "1" || $prompt == "Yes" ]]
 	then
 		sudo apt install arp-scan openjdk-8-jdk openjdk-8-jre aircrack-ng
 		git clone https://github.com/farrasrayhand/WIFI.git
-		cd Linux
+		cd WIFI
 		java -jar MDVK1.jar
 
 		sleep 0.1 && echo -e $putih	$LINE
@@ -81,7 +81,7 @@ if [[ $prompt == "y" || $prompt == "Y" || $prompt == "1" || $prompt == "Yes" ]]
 	else
 		#sudo pacman -S arp-scan openjdk-8-jdk openjdk-8-jre aircrack-ng
 		git clone https://github.com/farrasrayhand/WIFI.git
-		cd Linux
+		cd WIFI
 		
 
 		sleep 0.1 && echo -e $putih	$LINE
